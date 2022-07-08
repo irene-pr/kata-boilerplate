@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022", "DOM"],
+    "target": "es6",
+    "module": "commonjs",
+    "types": ["jest"],
+
+    "noEmitOnError": true,
+
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true, // quitar si molesta
+
+    "noUnusedLocals": true, // quitar si molesta
+    "noUnusedParameters": true, // quitar si molesta
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/*", "src/**/*.ts"],
+  "exclude": ["node_modules", "./dist"]
+}

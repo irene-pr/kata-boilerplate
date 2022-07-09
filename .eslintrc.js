@@ -26,5 +26,6 @@ module.exports = {
     "consistent-return": "off",
     "no-debugger": "off",
     "no-console": "off",
+    radix: "off",
   },
 };
